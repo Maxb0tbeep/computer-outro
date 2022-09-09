@@ -9,6 +9,7 @@ import time
 
 playsound('outro.mp3')
 
+print("Shutting down in 15")
 for i in range(14):
   countdown = 14 - i
   print("Shutting down in",countdown)
